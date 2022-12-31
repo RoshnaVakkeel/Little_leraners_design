@@ -48,3 +48,14 @@ body{
     margin: auto;
     padding: 20px;
 }
+
+/*--------------------------------------------Sign in Form*/
+.form {
+    width:40%;
+    margin: auto;
+    padding: 60px;
+}
+
+.bg-footer {
+    background-color: #d03280;
+}
