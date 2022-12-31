@@ -1,7 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
+/*--------------------------------------------Colors*/
+body{
+    background-color: #c9adb6;
+}
 
-body {
-    font-family: Arial, sans-serif;
-    background-color: rgb(189, 136, 161);
-    font-size: 5em;
+.bg-light {
+    background-color: #702064;
+}
+
+/*--------------------------------------------Navigation Menu*/
+.navbar-nav {
+    margin-left: auto;
+}
+
+.navbar-brand {
+    margin-left:20px;
+    color: whitesmoke;
+    font-size: x-large;
+    font-style: italic;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.nav-link {
+    color: white;
+}
+
+.navbar-nav > li{
+    margin-left:20px;
+    margin-right:20px;
+  }
+
+/*--------------------------------------------Section 1 Hero Image*/
+.bg-img {
+    background: url('../images/pexels-mikhail-nilov-8923375.jpg');
+    width: 70%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
