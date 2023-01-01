@@ -53,18 +53,74 @@
                         <a class="nav-link" href="logs.html"> <i class="fa fa-book" aria-hidden="true"> Lab Logs</i></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="register.html"><i class="fa fa-user-plus" aria-hidden="true"> Sign Up</i></a>
+                        <a class="nav-link" href="register.html"><i class="fa fa-user-plus" aria-hidden="true"> Sign
+                                Up</i></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="sign_in.html"> <i class="fa fa-sign-in" aria-hidden="true"> Sign In</i></a>
+                        <a class="nav-link" href="sign_in.html"> <i class="fa fa-sign-in" aria-hidden="true"> Sign
+                                In</i></a>
                     </li>
                 </ul>
             </div>
         </nav>
     </section>
-
     <br>
-   
+    <!-- All collections -->
+    <section>
+        <div class="container px-4">
+            <div class="row gx-5">
+
+                <div class="col">
+                    <div class="p-3 border bg-light">
+                        <div class="card">
+                            <img src="assets/images/color_expt.jpg" class="card-img-top p-3" alt="...">
+                            <div class="card-body">
+                                <p>Author Name:</p>
+                                <h5 class="card-title">Rainbow Experiment</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                            </div>
+
+                            <div class="card-body">
+                                <a href="#" class="card-link">Read more>></a>
+                            </div>
+                            <hr>
+                            <div class="card-info d-flex justify-content-between">
+                                <p class="card-text text-muted h6"> Date of Creation:{{ post.created_on }}</p>
+                                <p class="like-comment"><i class="far fa-heart"></i> {{ post.number_of_likes}}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="p-3 border bg-light">
+                        <div class="card">
+                            <img src="assets/images/color_expt.jpg" class="card-img-top p-3" alt="...">
+                            <div class="card-body">
+                                <p>Author Name:</p>
+                                <h5 class="card-title">Rainbow Experiment</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                            </div>
+
+                            <div class="card-body">
+                                <a href="#" class="card-link">Read more>></a>
+                            </div>
+                            <hr>
+                            <div class="card-info d-flex justify-content-between">
+                                <p class="card-text text-muted h6"> Date of Creation:{{ post.created_on }}</p>
+                                <p class="like-comment"><i class="far fa-heart"></i> {{ post.number_of_likes}}</p>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <br>
+
+
     <!-- Footer -->
     <footer class="bg-footer text-center text-white">
         <!-- Grid container -->
@@ -97,7 +153,9 @@
     <!-- Footer -->
 
     <!-- Bootstrap js  -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous">
+    </script>
     <!-- Font awesome  -->
     <script src="https://kit.fontawesome.com/c3c3195070.js" crossorigin="anonymous"></script>
 </body>
