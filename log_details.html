@@ -67,60 +67,72 @@
     <br>
     <!-- All collections -->
     <section>
-        <div class="container px-4">
-            <div class="row gx-5">
-
-                <div class="col">
-                    <div class="p-3 border bg-light">
-                        <div class="card">
-                            <img src="assets/images/color_expt.jpg" class="card-img-top p-3" alt="...">
-                            <div class="card-body">
-                                <p>Author Name:</p>
-                                <h5 class="card-title">Rainbow Experiment</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk of the card's content.</p>
-                            </div>
-
-                            <div class="card-body">
-                                <a href="#" class="card-link">Read more>></a>
-                            </div>
-                            <hr>
-                            <div class="card-info d-flex justify-content-between">
-                                <p class="card-text text-muted h6"> Date of Creation:{{ post.created_on }}</p>
-                                <p class="like-comment"><i class="far fa-heart"></i> {{ post.number_of_likes}}</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col">
-                    <div class="p-3 border bg-light">
-                        <div class="card">
-                            <img src="assets/images/color_expt.jpg" class="card-img-top p-3" alt="...">
-                            <div class="card-body">
-                                <p>Author Name:</p>
-                                <h5 class="card-title">Rainbow Experiment</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk of the card's content.</p>
-                            </div>
-
-                            <div class="card-body">
-                                <a href="log_details.html" class="card-link">Read more>></a>
-                            </div>
-                            <hr>
-                            <div class="card-info d-flex justify-content-between">
-                                <p class="card-text text-muted h6"> Date of Creation:{{ post.created_on }}</p>
-                                <p class="like-comment"><i class="far fa-heart"></i> {{ post.number_of_likes}}</p>
-                            </div>
-                    </div>
-                </div>
+        <div class="card w-75">
+            <h3 class="card-title mt-3 text-center text-uppercase">Rainbow Experiment</h3>
+            <p class="text-center">Author: {{username}} | {{Date and Time of creation}}</p>
+            <img src="assets/images/color_expt.jpg" class="card-img-top p-3" alt="...">
+            <div class="card-body">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">
+                        <h5>Description</h5>
+                    </li>
+                    <li class="list-group-item">
+                        <h5>Items Required</h5>
+                        <p>
+                            • Tall Glass Jar
+                            • Food Colors: Red, Blue and Green
+                            • 1/4 cup Honey
+                            • 1/4 cup Blue Dish Soap
+                            • 1/4 cup Water
+                            • 1/4 cup Olive Oil
+                            • 1/4 cup Rubbing Alcohol
+                            • Jars for mixing and pouring
+                            • Spoons for mixing
+                        </p>
+                    </li>
+                    <li class="list-group-item">
+                        <h5>How to Perform</h5>
+                        1. Add one drop of red food coloring and one drop of blue food coloring to 1/4 cup
+                        of honey and stir until combined. This is create a purple color liquid. Pour the
+                        purple liquid carefully into the tall jar.
+                        2. Next add about 1/4 cup of blue dish soap to the tall jar.
+                        3. Then add a few drops of green food coloring to 1/4 cup of water and mix until
+                        combined. Then carefully pour the green liquid into the tall jar. Tip: When pouring
+                        in the green liquid, tilt the jar so the liquid runs down the side of the jar
+                        slowly.
+                        4. Wait a few moments and then slowly pour 1/4 cup of olive oil into the jar. Tip:
+                        Again, be very careful when pouring in the liquid. Make sure to tilt the jar and
+                        pour very slowly so the colors don’t mix.
+                        5. Add a few drops of red food coloring to 1/4 cup of rubbing alcohol and mix until
+                        combined. Then carefully pour the red liquid into the tall jar. Tip: I can’t stress
+                        enough how important it is to tilt the jar and pour slow. Otherwise the colors will
+                        mix together and you won’t get a distinct rainbow.
+                    </li>
+                </ul>
             </div>
-        </div>
-
     </section>
     <br>
+    <section>
+        <div class="card w-75">
+            <h5 class="card-header">Comments</h5>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">An item</li>
+                <li class="list-group-item">A second item</li>
+                <li class="list-group-item">A third item</li>
+            </ul>
+        </div>
+        <br>
 
-
+        <div class="card w-75">
+            <h5 class="card-header">Please enter your comments</h5>
+            <div class="card-body">
+                <h6 class="card-title">Great/Amazing/..??</h6>
+                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                <a href="#" class="btn btn-success">Submit</a>
+            </div>
+        </div>
+    </section>
+    <br>
     <!-- Footer -->
     <footer class="bg-footer text-center text-white">
         <!-- Grid container -->
